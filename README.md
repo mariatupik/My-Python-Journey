@@ -17,3 +17,14 @@ Programming terminology: Understanding core coding concepts and best practices.
 More conditionals: Nested structures and advanced branching logic.
 Combining conditions: Utilizing logical operators (and, or, not).
 Simple loops: Implementing while loops for repetitive tasks and basic flow control.
+
+Part 3: Functions and Modularity
+
+Defining Functions: In this section, I explored the power of code reusability and modular design.
+Learning Objectives:
+    - Writing and calling custom functions using the `def` keyword.
+    - Understanding the distinction between **parameters** (defined in the function) and **arguments** (passed during the call).
+    - Defining and managing multiple parameters to create flexible logic.
+Key Projects:
+    - `Chessboard`: Implementing alternating patterns using conditional logic within loops.
+    -  `Squared`: Developing a "sliding window" algorithm for dynamic string slicing.
