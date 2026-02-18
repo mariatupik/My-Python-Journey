@@ -28,3 +28,14 @@ Learning Objectives:
 Key Projects:
     - `Chessboard`: Implementing alternating patterns using conditional logic within loops.
     -  `Squared`: Developing a "sliding window" algorithm for dynamic string slicing.
+
+Part 4: Data Structures and Efficiency
+
+In this section, I delved into managing data collections and enhancing program structure through advanced function features and list manipulation.
+Learning Objectives:
+    - Advanced Functions: Mastering `return` values and using helper functions to break down complex problems (decomposition).
+    - List Manipulation: Dynamic data storage using `.append()`, and statistical analysis with `.count()` and `sum()`.
+    - Iteration Mastery: Using `for` loops with the `range()` function for both incremental and decremental (reverse) sequences.
+    - Output Formatting: Implementing f-strings with precision specifiers (e.g., `:.1f`) and using string multiplication for simple data visualization.
+Key Projects:
+- `Grade Statistics`: A comprehensive tool that processes exam results, calculates weighted averages/pass percentages, and visualizes grade distribution via a text-based histogram.
