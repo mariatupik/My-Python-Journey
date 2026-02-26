@@ -3,39 +3,83 @@ Learning materials and practice from Python course.
 
 Currently, I am expanding my skills by taking two courses simultaneously: Python MOOC from the University of Helsinki and a comprehensive course by itProger. This repository primarily documents my progress and solutions for the MOOC modules.
 
-Part 1: Foundations
+## Part 1: Foundations
+This section covers the essential building blocks of Python programming.
 
-Getting started: Initial environment setup and basic syntax.
-Info
-More about variables: Handling strings, integers, and floating-point numbers.
-Arithmetic operations: Performing calculations and using mathematical operators.
-Conditional statements: Basic decision-making with if, else, and elif.
+**Learning Objectives:**
+* Initial environment setup and basic syntax.
+* Handling strings, integers, and floating-point numbers.
+* Performing calculations and using mathematical operators.
+* Introduction to decision-making with conditional statements.
 
-Part 2: Logic and Iteration
+**Code & Tasks:**
+*  [Conditional Statements](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p1_conditional%20statements.py)
+*  [Task 1: Basic Operations](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p1_task1.py)
+*  [Task 3: Logic Practice](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p1_task3.py)
 
-Programming terminology: Understanding core coding concepts and best practices.
-More conditionals: Nested structures and advanced branching logic.
-Combining conditions: Utilizing logical operators (and, or, not).
-Simple loops: Implementing while loops for repetitive tasks and basic flow control.
+---
 
-Part 3: Functions and Modularity
+## Part 2: Logic and Iteration
+Focusing on deeper logic, terminology, and the basics of repetitive tasks.
 
-Defining Functions: In this section, I explored the power of code reusability and modular design.
-Learning Objectives:
-    - Writing and calling custom functions using the `def` keyword.
-    - Understanding the distinction between **parameters** (defined in the function) and **arguments** (passed during the call).
-    - Defining and managing multiple parameters to create flexible logic.
-Key Projects:
-    - `Chessboard`: Implementing alternating patterns using conditional logic within loops.
-    -  `Squared`: Developing a "sliding window" algorithm for dynamic string slicing.
+**Learning Objectives:**
+* Understanding core coding concepts and best practices.
+* Mastering nested structures and advanced branching logic.
+* Utilizing logical operators (`and`, `or`, `not`).
+* Implementing simple `while` loops for flow control.
 
-Part 4: Data Structures and Efficiency
+**Code & Tasks:**
+*  [More Conditionals](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p2_more%20conditionals.py)
+*  [Programming Terminology](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p2_programming_terminology.py)
+*  [Simple Loops](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p2_simple_loops.py)
 
-In this section, I delved into managing data collections and enhancing program structure through advanced function features and list manipulation.
-Learning Objectives:
-    - Advanced Functions: Mastering `return` values and using helper functions to break down complex problems (decomposition).
-    - List Manipulation: Dynamic data storage using `.append()`, and statistical analysis with `.count()` and `sum()`.
-    - Iteration Mastery: Using `for` loops with the `range()` function for both incremental and decremental (reverse) sequences.
-    - Output Formatting: Implementing f-strings with precision specifiers (e.g., `:.1f`) and using string multiplication for simple data visualization.
-Key Projects:
-- `Grade Statistics`: A comprehensive tool that processes exam results, calculates weighted averages/pass percentages, and visualizes grade distribution via a text-based histogram.
+---
+
+##  Part 3: Functions and Modularity
+Exploring the power of code reusability and modular design.
+
+**Learning Objectives:**
+* Writing and calling custom functions using the `def` keyword.
+* Understanding the distinction between parameters and arguments.
+* Managing multiple parameters to create flexible logic.
+* Implementing alternating patterns and dynamic string slicing.
+
+**Key Projects & Code:**
+*  [Defining Functions](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p3_defining_functions.py)
+*  [Loops with Conditions](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p3_loops_with_conditions.py)
+*  [More Loops](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p3_more_loops.py)
+*  [Working with Strings](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p3_working%20with%20strings.py)
+
+---
+
+##  Part 4: Data Structures and Efficiency
+Managing data collections and enhancing program structure through list manipulation.
+
+**Learning Objectives:**
+* Mastering `return` values and helper functions (decomposition).
+* Dynamic data storage and statistical analysis with lists.
+* Using `for` loops with the `range()` function for sequences.
+* Output formatting using f-strings and visualization (histograms).
+
+**Key Projects & Code:**
+*  [Lists Fundamentals](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p4_Lists.py)
+*  [Definite Iteration](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p4_definite_iteration.py)
+*  [More Functions (Grade Statistics)](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p4_more_functions.py)
+*  [More Strings and Lists](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p4_more_strings_and_lists.py)
+
+---
+
+##  Part 5: Advanced Data Handling
+Transition to complex information management, memory logic, and mapping.
+
+**Learning Objectives:**
+* **Dictionaries:** Key-value pairs and nested data structures.
+* **References:** Understanding memory management and copies.
+* **Tuples:** Using immutable sequences to ensure data integrity.
+* **Procedural Patterns:** Generating complex 2D patterns (Letter Square).
+
+**Key Projects & Code:**
+*  [Dictionary Operations](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p5-dictionary.py)
+*  [More Lists (Letter Square)](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p5_more_lists.py)
+*  [References & Memory](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p5_references.py)
+*  [Tuple Practice](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p5_tuple.py)
