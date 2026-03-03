@@ -1,0 +1,51 @@
+# Hypotenuse
+from math import sqrt
+ 
+def hypotenuse(leg1: float, leg2: float):
+  return sqrt(leg1**2 + leg2**2)
+ 
+ 
+if __name__ == "__main__":
+    print(hypotenuse(3,4)) # 5.0
+    print(hypotenuse(5,12)) # 13.0
+    print(hypotenuse(1,1)) # 1.4142135623730951
+
+# Special characters
+import string
+def separate_characters(my_string: str):
+    ascii = ""
+    punctuation = ""
+    other = ""
+ 
+    for chr in my_string:
+        if chr in string.ascii_letters:
+            ascii += chr
+        elif chr in string.punctuation:
+            punctuation+=chr
+        else:
+            other+=chr
+    my_tuple=(ascii, punctuation, other)
+    return my_tuple
+        
+ 
+if __name__ == "__main__":
+    parts = separate_characters("Olé!!! Hey, are ümläüts wörking?")
+    print(parts[0])
+    print(parts[1])
+    print(parts[2])
+
+# Fractions
+from fractions import Fraction
+ 
+def fractionate(amount: int):
+    my_fraction = Fraction(1, amount)
+    fractions_list = [my_fraction] * amount
+    return fractions_list
+ 
+if __name__ == "__main__":
+    for p in fractionate(3):
+        print(p)
+ 
+    print()
+ 
+    print(fractionate(5))
