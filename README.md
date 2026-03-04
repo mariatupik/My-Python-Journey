@@ -83,3 +83,37 @@ Transition to complex information management, memory logic, and mapping.
 *  [More Lists (Letter Square)](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p5_more_lists.py)
 *  [References & Memory](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p5_references.py)
 *  [Tuple Practice](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p5_tuple.py)
+
+---
+
+##  Part 6: File Handling and Data Processing
+Learning to interact with external data and managing program robustness through error handling.
+
+**Learning Objectives:**
+* **File I/O Operations**: Reading from and writing to text and CSV files.
+* **Data Cleansing**: Mastering string methods (`.strip()`, `.split()`) to process raw data.
+* **Error Handling**: Using `try-except` blocks to manage `FileNotFoundError` and `ValueError`.
+* **Time & Integrity Logic**: Leveraging the `datetime` module to monitor exam durations and identify violations.
+
+**Key Projects & Code:**
+* [Reading Files](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p6_reading_files.py) — Parsing structured text data into manageable Python structures.
+* [Writing Files](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p6_writing_files.py) — Exporting processed information and generating reports.
+* [Handling Errors & Integrity](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p6_handling_errors.py) — Analyzing exam submissions for academic integrity and score aggregation.
+
+---
+
+##  Part 7: Modules, APIs, and Advanced Logic
+Advanced software engineering concepts, integrating third-party libraries, and complex algorithm design.
+
+**Learning Objectives:**
+* **Modularity**: Creating and importing custom modules to build scalable applications.
+* **External APIs**: Fetching and processing real-time JSON data from web services.
+* **Standard Libraries**: Leveraging `datetime`, `random`, and `difflib` for specialized tasks.
+* **Interpreter Design**: Developing a complex execution environment for a custom language.
+
+**Key Projects & Code:**
+* [Custom Language Interpreter](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_own_programming%20_language.py) — A sophisticated virtual machine supporting variables, labels, and conditional jumps.
+* [Course Statistics API](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_%20course_statistics.py) — Live data retrieval and statistical analysis from a JSON API.
+* [Spell Checker](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_spell_checker.py) — Text validation engine using fuzzy string matching.
+* [Own Modules](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_own_modules.py) — Practice in creating reusable code structures and multi-file projects.
+* [Times, Dates & Randomness](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_times_and_dates.py) — Working with time-stamps, intervals, and generating pseudo-random data.
