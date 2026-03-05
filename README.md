@@ -117,3 +117,35 @@ Advanced software engineering concepts, integrating third-party libraries, and c
 * [Spell Checker](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_spell_checker.py) — Text validation engine using fuzzy string matching.
 * [Own Modules](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_own_modules.py) — Practice in creating reusable code structures and multi-file projects.
 * [Times, Dates & Randomness](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_times_and_dates.py) — Working with time-stamps, intervals, and generating pseudo-random data.
+
+  ---
+
+## 🚀 itProger Specialization
+*Focus: Applied programming, Object-Oriented Design, and Graphical User Interfaces.*
+
+### Module: Object-Oriented Programming (OOP)
+Transitioning from functional to object-oriented software design to manage complex data structures.
+
+**Learning Objectives:**
+* **Classes and Objects:** Creating custom blueprints for data and understanding object instances.
+* **Constructors & State:** Mastering the `__init__` method to initialize object attributes.
+* **Methods & Behavior:** Defining internal functions to manipulate object data.
+* **Inheritance:** Building class hierarchies to extend functionality and reduce code redundancy.
+* **Encapsulation:** Managing access levels to data for better code security and organization.
+
+**Key Projects & Code:**
+* [Work with Classes](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/work_with_Class) — Practical implementation of OOP principles and hierarchical logic.
+
+### Module: GUI Development (Kivy Framework)
+Building cross-platform graphical applications with interactive elements and event-driven logic.
+
+**Learning Objectives:**
+* **Kivy Ecosystem:** Understanding the application lifecycle and framework architecture.
+* **UI/UX Components:** Working with core widgets like `Button`, `Label`, and `TextInput`.
+* **Layout Management:** Organizing interfaces using `BoxLayout`, `GridLayout`, and responsive design.
+* **Event-Driven Programming:** Binding functions to user actions like clicks and text input.
+* **Data Transformation:** Implementing real-time logic to process and convert user-provided data.
+
+**Key Projects & Code:**
+* [Time Converter](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Time-Converter-Kivy) — A utility app that converts time units, demonstrating input validation and mathematical logic within a GUI.
+* [Kivy Basic Interaction](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Kivy-Basic-Interaction) — Exploration of basic widgets and event handling.
