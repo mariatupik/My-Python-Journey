@@ -1,7 +1,10 @@
 # My-Python-Journey
 Learning materials and practice from Python course.
+Currently, I am expanding my skills by taking two courses simultaneously: Python MOOC from the University of Helsinki and a comprehensive course by itProger.
 
-Currently, I am expanding my skills by taking two courses simultaneously: Python MOOC from the University of Helsinki and a comprehensive course by itProger. This repository primarily documents my progress and solutions for the MOOC modules.
+---
+
+## 🏛 University of Helsinki Path (Python MOOC)
 
 ## Part 1: Foundations
 This section covers the essential building blocks of Python programming.
