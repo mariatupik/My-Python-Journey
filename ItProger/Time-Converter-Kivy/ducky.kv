@@ -1,0 +1,90 @@
+<MyOwnLabel@Label>
+    font_size: '20sp'
+    halign: 'left'
+    valign: 'middle'
+    text_size: self.size
+
+
+
+<Container>:
+    rows: 3
+    text_input: text_input
+    label_hours: label_hours
+    label_minutes: label_minutes
+    label_seconds: label_seconds
+    label_milliseconds: label_milliseconds
+    label_weeks: label_weeks
+
+
+    AnchorLayout:
+        anchor_y: 'top'
+        size_hint: 1, 0.15
+
+        TextInput:
+            size_hint: (0.9, 0.7)
+            id: text_input
+            font_size: '35sp'
+            input_filter: 'int'
+            input_type: 'number'
+            multiline: False
+            hint_text: "Days"
+            text: ''
+
+    GridLayout:
+        cols:2
+        padding: [20, 10, 20, 10]
+        spacing: 15
+
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint: 0.5, 1
+
+            MyOwnLabel:
+                text: 'Hour'
+
+
+            MyOwnLabel:
+                text: 'Minute'
+
+
+            MyOwnLabel:
+                text: 'Second'
+
+            MyOwnLabel:
+                text: 'Millisecond'
+
+            MyOwnLabel:
+                text: 'Week'
+
+        BoxLayout:
+            orientation: 'vertical'
+
+            MyOwnLabel:
+                text: '0'
+                id: label_hours
+
+
+            MyOwnLabel:
+                text: '0'
+                id: label_minutes
+
+
+            MyOwnLabel:
+                text: '0'
+                id: label_seconds
+
+            MyOwnLabel:
+                text: '0'
+                id: label_milliseconds
+
+            MyOwnLabel:
+                text: '0'
+                id: label_weeks
+
+    BoxLayout:
+        size_hint: 0.9, 0.15
+        padding: [30, 20, 30, 20]
+        Button:
+            text: 'Let`s go!'
+            on_release:
+                root.convert()
