@@ -1,0 +1,25 @@
+<Container>:
+    orientation: 'vertical'
+    padding: 30
+    spacing: 30
+    text_input: text_input
+    label_text: label_text
+
+    TextInput:
+        text: ''
+        id: text_input
+        multiline:False
+        font_size: 50
+    Label:
+        text: 'Text'
+        id: label_text
+        font_size: 40
+    FloatLayout:
+        Button:
+            text:'Let`s go!'
+            font_size: 40
+            size_hint: 0.5, 1
+            pos_hint:{'center_x':0.5, 'y':0}
+            on_release:
+                # self.text = 'Love'
+                root.change_something()
