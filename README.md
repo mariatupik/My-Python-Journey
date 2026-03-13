@@ -152,3 +152,16 @@ Building cross-platform graphical applications with interactive elements and eve
 **Key Projects & Code:**
 * [Time Converter](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Time-Converter-Kivy) — A utility app that converts time units, demonstrating input validation and mathematical logic within a GUI.
 * [Kivy Basic Interaction](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Kivy-Basic-Interaction) — Exploration of basic widgets and event handling.
+
+### Module: GUI Development (Flet Framework)
+Advanced development of reactive, cross-platform applications using Material Design 3.
+* **Learning Objectives:**
+    * **Flet Architecture:** Mastering the Page-Control relationship and reactive UI updates.
+    * **Data Persistence:** Implementing local storage using JSON for saving application states.
+    * **Advanced Components:** Utilizing Sliders, Dialogs, and dynamic Lists for rich user interaction.
+    * **Theme Management:** Creating seamless Dark/Light mode transitions and custom styling.
+    * **Application Logic:** Integrating CRUD operations and real-time data visualization.
+* **Key Projects & Code:**
+    * [Book Reading Manager](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Book-Manager) — Interactive library tracker with progress sliders and in-place editing.
+    * [Budget Tracker PRO](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Budget-Tracker) — Financial tool with visual analytics and data persistence.
+    * [Time Converter (Flet)](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Time-Converter) — Modern evolution of the time conversion utility.

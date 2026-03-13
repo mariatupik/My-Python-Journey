@@ -41,7 +41,7 @@ for i in images:
     img_expanded = np.expand_dims(img_resized, axis=0)
     
     prediction = model.predict(img_expanded)
-    label = 'Собачка' if prediction[0][0] > 0 else 'Кошка'
+    label = 'Dog' if prediction[0][0] > 0 else 'Cat'
     
     plt.figure()
     plt.imshow(img)
