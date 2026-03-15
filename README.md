@@ -165,3 +165,15 @@ Advanced development of reactive, cross-platform applications using Material Des
     * [Book Reading Manager](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Book-Manager) — Interactive library tracker with progress sliders and in-place editing.
     * [Budget Tracker PRO](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Budget-Tracker) — Financial tool with visual analytics and data persistence.
     * [Time Converter (Flet)](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Time-Converter) — Modern evolution of the time conversion utility.
+
+## Module: AI & Automation (Telegram Bots)
+Integration of computer vision, speech processing, and automated data retrieval.
+* **Learning Objectives:**
+    * **Computer Vision (OCR):** Implementing `Tesseract OCR` to extract text from images with English & Ukrainian language support.
+    * **Speech Recognition:** Utilizing `speech_recognition` (sr) for converting voice messages into actionable text commands.
+    * **Dynamic Search Integration:** Automating the generation of search URLs for e-commerce platforms (Knihy Dobrovský) based on user input or scanned data.
+    * **State Management:** Mastering `NextStepHandlers` for complex multi-stage user dialogues and interactive registration flows.
+    * **Data Logging:** Automated logging of user profiles (ID, Name, Age, Author) to local databases for customer management.
+* **Key Projects:**
+    * [AI Book Finder Bot](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/AI-Book-Finder-Bot) — Telegram bot that scans book covers via OCR and provides direct search links for authors during registration.
+    * [Voice & OCR Assistant](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Voice-OCR-Assistant) — Advanced assistant focusing on voice command processing and automated information retrieval.
