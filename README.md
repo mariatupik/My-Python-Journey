@@ -177,3 +177,15 @@ Integration of computer vision, speech processing, and automated data retrieval.
 * **Key Projects:**
     * [AI Book Finder Bot](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/AI-Book-Finder-Bot) — Telegram bot that scans book covers via OCR and provides direct search links for authors during registration.
     * [Voice & OCR Assistant](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Voice-OCR-Assistant) — Advanced assistant focusing on voice command processing and automated information retrieval.
+
+---
+
+### Module: Database Management (SQL)
+Integration of Python with relational databases to manage and manipulate complex data structures.
+* **Learning Objectives:**
+    * **CRUD Operations:** Implementing Create, Read, Update, and Delete actions using `mysql-connector`.
+    * **Relational Logic:** Designing queries to handle data between multiple tables (`users`, `items`, `orders`).
+    * **SQL Joins:** Mastering `JOIN` statements to combine and retrieve related data from separate entities.
+    * **Data Persistence:** Managing database connections, cursors, and committing transactions to ensure data integrity.
+* **Key Projects:**
+    * [MySQL Orders Manager](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/MySQL-Orders-Manager) — A script for managing a store database, featuring automated order processing and relational reporting.
