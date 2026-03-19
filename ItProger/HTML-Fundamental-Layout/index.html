@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Info">
+    <meta name="author" content="Maria">
+    <title>My website</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; padding: 20px;">
+    <h1 style="text-align: center;">My website</h1>
+
+    <table width="100%" border="0" cellpadding="10" cellspacing="0">
+        <tr>
+            <td width="50%">
+                <img src="https://itproger.com/img/courses/1731492819.svg" style="width: 100%;" alt="SQL course">
+            </td>
+            <td width="50%" valign="top">
+                <h2>Image <mark>information:</mark></h2>
+                <hr>
+                <details>
+                    <summary>More details:</summary>
+                    <p>SQL course</p>
+                </details>
+                <br>
+                <audio controls style="width: 100%;">
+                    <source src="https://vukhamy.vchysia.org.ua/wp-content/uploads/audio/STEM/Ph/STEM-Ph-shcho-take-zvuk.mp3" type="audio/mpeg">
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%">
+                <iframe src="https://www.youtube.com/embed/RbYOhqFRLlY" 
+                        style="width: 100%; height: 450px;" 
+                        frameborder="0" allowfullscreen></iframe>
+            </td>
+            <td width="50%" valign="top">
+                <h2>Our advantages:</h2>
+                <ul type="disc">
+                    <li>Cool <a href="https://itproger.com/" target="_blank">prices</a>;</li>
+                    <li>Great selection;</li>
+                    <li>Good specialists.</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <br>
+    <h1 style="text-align: left;">Register for the event:</h1>
+    
+    <form>
+        <table border="0" cellpadding="5">
+            <tr>
+                <td><label for="username">User name:</label></td>
+                <td><input type="text" id="username" name="username" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="user-email">Email:</label></td>
+                <td><input type="email" id="user-email" name="user-email" placeholder="Enter your email"></td>
+            </tr>
+            <tr>
+                <td><label for="user-pass">Password:</label></td>
+                <td><input type="password" id="user-pass" name="user-pass" placeholder="Enter your password"></td>
+            </tr>
+            <tr>        
+                <td><label for="user-file">Profile photo:</label></td>
+                <td><input type="file" id="user-file" name="user-file"><br></td>
+            </tr>
+            <tr> 
+                <td colspan="2">
+                    <select name="Programming experience">
+                        <option value="" disabled selected hidden>Programming experience</option>
+                        <option value="up to 1 year">up to 1 year</option>
+                        <option value="up to 3 year">up to 3 year</option>
+                        <option value="up to 5 year">up to 5 year</option>
+                        <option value="more than 5 years">more than 5 years</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select name="language">
+                        <option value="" disabled selected>Favorite programming language:</option>
+                        <option value="python">Python</option>
+                        <option value="php">PHP</option>
+                        <option value="js">JavaScript</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="user-check" name="user-check">
+                    <label for="user-check">User consent</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

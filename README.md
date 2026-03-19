@@ -121,7 +121,7 @@ Advanced software engineering concepts, integrating third-party libraries, and c
 * [Own Modules](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_own_modules.py) — Practice in creating reusable code structures and multi-file projects.
 * [Times, Dates & Randomness](https://github.com/mariatupik/My-Python-Journey/blob/main/MOOC-University/mooc_p7_times_and_dates.py) — Working with time-stamps, intervals, and generating pseudo-random data.
 
-  ---
+---
 
 ## 🚀 itProger Specialization
 *Focus: Applied programming, Object-Oriented Design, and Graphical User Interfaces.*
@@ -139,6 +139,8 @@ Transitioning from functional to object-oriented software design to manage compl
 **Key Projects & Code:**
 * [Work with Classes](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/work_with_Class) — Practical implementation of OOP principles and hierarchical logic.
 
+---
+
 ### Module: GUI Development (Kivy Framework)
 Building cross-platform graphical applications with interactive elements and event-driven logic.
 
@@ -153,6 +155,8 @@ Building cross-platform graphical applications with interactive elements and eve
 * [Time Converter](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Time-Converter-Kivy) — A utility app that converts time units, demonstrating input validation and mathematical logic within a GUI.
 * [Kivy Basic Interaction](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Kivy-Basic-Interaction) — Exploration of basic widgets and event handling.
 
+---
+
 ### Module: GUI Development (Flet Framework)
 Advanced development of reactive, cross-platform applications using Material Design 3.
 * **Learning Objectives:**
@@ -165,6 +169,8 @@ Advanced development of reactive, cross-platform applications using Material Des
     * [Book Reading Manager](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Book-Manager) — Interactive library tracker with progress sliders and in-place editing.
     * [Budget Tracker PRO](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Budget-Tracker) — Financial tool with visual analytics and data persistence.
     * [Time Converter (Flet)](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Time-Converter) — Modern evolution of the time conversion utility.
+
+---
 
 ## Module: AI & Automation (Telegram Bots)
 Integration of computer vision, speech processing, and automated data retrieval.
@@ -189,3 +195,15 @@ Integration of Python with relational databases to manage and manipulate complex
     * **Data Persistence:** Managing database connections, cursors, and committing transactions to ensure data integrity.
 * **Key Projects:**
     * [MySQL Orders Manager](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/MySQL-Orders-Manager) — A script for managing a store database, featuring automated order processing and relational reporting.
+
+---
+
+### Module: Web Development Fundamentals (HTML)
+Deep dive into the structural foundations of the web using pure HTML.
+* **Learning Objectives:**
+    * **Pure HTML Architecture:** Building complex layouts using tables and attributes without external or internal CSS.
+    * **Media Integration:** Embedding YouTube iframes, `<audio>` players, and vector graphics (`svg`).
+    * **Form Engineering:** Creating interactive registration forms with multiple input types and validation.
+    * **Legacy Design Techniques:** Mastering table-based positioning and HTML-only element styling.
+* **Key Projects:**
+    * [HTML Fundamental Layout](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/HTML-Fundamental-Layout) — A comprehensive landing page demonstrating multimedia handling and advanced forms.
