@@ -12,9 +12,11 @@ A fundamental web project showcasing standard HTML capabilities without external
 * **HTML5:** Structural elements and media tags.
 * **HTML Attributes:** Layout management and element positioning using pure HTML attributes (table-based design).
 
-##  Preview
+## 📸 Preview
 <p align="center">
   <img src="./preview_top.png" width="450" alt="Website Top Section">
+</p>
+<p align="center">
   <img src="./preview_bottom.png" width="450" alt="Website Registration Form">
 </p>
 
