@@ -207,3 +207,15 @@ Deep dive into the structural foundations of the web using pure HTML.
     * **Legacy Design Techniques:** Mastering table-based positioning and HTML-only element styling.
 * **Key Projects:**
     * [HTML Fundamental Layout](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/HTML-Fundamental-Layout) — A comprehensive landing page demonstrating multimedia handling and advanced forms.
+
+---
+
+### Module: Software Quality Assurance (Testing)
+Implementing automated testing cycles to ensure code reliability and robustness.
+* **Learning Objectives:**
+    * **Unit Testing:** Writing isolated test cases using the `pytest` framework.
+    * **Test Assertions:** Validating object states, attributes, and function return values.
+    * **Integration Testing:** Testing code interactions with external APIs and network resources.
+    * **Error Simulation:** Handling and testing edge cases like invalid URLs and connection timeouts.
+* **Key Projects:**
+    * [Python Unit Testing](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Python-Unit-Testing) — A credential management system with automated validation and network checks.
