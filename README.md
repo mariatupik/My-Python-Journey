@@ -219,3 +219,19 @@ Implementing automated testing cycles to ensure code reliability and robustness.
     * **Error Simulation:** Handling and testing edge cases like invalid URLs and connection timeouts.
 * **Key Projects:**
     * [Python Unit Testing](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Python-Unit-Testing) — A credential management system with automated validation and network checks.
+
+---
+
+### Module: Web Development & UI/UX (CSS)
+Implementation of modern layouts and design mockups using advanced styling techniques.
+
+* **Learning Objectives:**
+    * **Figma-to-Code Mastery:** Translating high-fidelity `.fig` design assets into functional web interfaces with a focus on accuracy.
+    * **Advanced CSS Positioning:** Implementing `fixed` navigation, `absolute` overlays for interactive buttons, and `z-index` management.
+    * **UI Interactivity:** Developing dynamic hover states, transitions, and styled form components.
+    * **Project & Asset Management:** Organizing professional project structures with dedicated `/css` and `/img` directories.
+    * **External Integration:** Utilizing CDN-hosted libraries like `Font Awesome` and `Google Fonts` for enhanced visual identity.
+
+* **Key Projects:**
+    * [SoundBurner Music Portal](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/SoundBurner-Music-Portal) — A high-fidelity implementation of a music service mockup, featuring complex positioning and multimedia lists.
+    * [WebDesign Static Portal](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/WebDesign-Static-Portal) — A foundational project focusing on fixed layouts, box-shadow depth, and social media branding.
