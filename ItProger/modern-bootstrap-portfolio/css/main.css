@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Custom Buttons */
+.btn-red {
+    background-color: #e9434e;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn-red:hover { 
+    background-color: #802329; 
+}
+
+.btn-dark-grey {
+    background-color: #3a4149;
+    border: none;
+}
+
+/* Sections with Fixed Backgrounds */
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1920') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services { 
+    background-color: #e9434e; 
+}
+
+.footer-cta {
+    min-height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1920') no-repeat center center;
+    background-size: cover;
+    background-size: cover;
+
+    background-color: #222; 
+}
+
+/* Service Cards */
+.service-card h5 { 
+    min-height: 3.5rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
