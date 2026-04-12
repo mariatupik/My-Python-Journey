@@ -1,6 +1,6 @@
 # Modern Bootstrap Portfolio Landing Page
 
-![Project Preview](preview.jpg)
+![Project Preview](preview.png)
 
 A professional, responsive landing page built with HTML5, CSS3, and Bootstrap 5. This project features a clean corporate aesthetic with dynamic visual effects.
 
