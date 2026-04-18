@@ -123,6 +123,19 @@ Advanced software engineering concepts, integrating third-party libraries, and c
 
 ---
 
+## 🎓 Examination & Final Certification
+Comprehensive assessment of Python programming proficiency through the official University of Helsinki examination.
+
+**Learning Objectives:**
+* **Complex Problem Solving:** Designing multi-layered algorithms under exam conditions.
+* **Algorithmic Logic:** Implementing advanced character frequency analysis and data filtering.
+* **Matrix Manipulation:** Managing deep copies and state transformations in nested data structures.
+* **Numerical Computing:** Leveraging the `fractions` module for precise mathematical calculations and string parsing.
+
+**Key Projects & Code:**
+* [Python MOOC Exam Solutions](https://github.com/mariatupik/My-Python-Journey/tree/main/MOOC-University/python-mooc-exam-solutions) — Verified solutions for the final examination, including frequency analyzers and matrix utilities.
+
+
 ## 🚀 itProger Specialization
 *Focus: Applied programming, Object-Oriented Design, and Graphical User Interfaces.*
 
@@ -235,3 +248,31 @@ Implementation of modern layouts and design mockups using advanced styling techn
 * **Key Projects:**
     * [SoundBurner Music Portal](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/SoundBurner-Music-Portal) — A high-fidelity implementation of a music service mockup, featuring complex positioning and multimedia lists.
     * [WebDesign Static Portal](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/WebDesign-Static-Portal) — A foundational project focusing on fixed layouts, box-shadow depth, and social media branding.
+
+---
+
+### Module: Advanced Web Design (Bootstrap 5)
+Developing high-fidelity, responsive landing pages using industry-standard CSS frameworks.
+
+* **Learning Objectives:**
+    * **Bootstrap Grid & Flexbox:** Implementing complex responsive layouts using `row`, `col`, and `d-flex` utilities.
+    * **Parallax Effects:** Crafting dynamic visual depth using `background-attachment: fixed` and linear-gradient overlays.
+    * **Component Styling:** Customizing Bootstrap's default theme to match high-fidelity design assets (Mockups).
+    * **UI/UX Polishing:** Managing z-index, interactive hover states, and refined typography for professional-grade portals.
+
+* **Key Projects:**
+    * [Modern Bootstrap Portfolio](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/modern-bootstrap-portfolio) — A sleek, responsive landing page featuring parallax backgrounds and specialized service cards.
+
+---
+
+### Module: JavaScript Fundamentals (Algorithm Design)
+Introduction to core programming logic and data structure manipulation using JavaScript (ES6+).
+
+* **Learning Objectives:**
+    * **Iterative Logic:** Implementing optimized `for` loops for mathematical summation and pattern matching.
+    * **Multidimensional Data:** Developing algorithms to traverse and identify specific values (min/max) within matrices.
+    * **Conditional Operators:** Mastering logical OR/AND operators for complex filter criteria.
+    * **Performance Optimization:** Understanding basic computational complexity in nested loops.
+
+* **Key Projects:**
+    * [JavaScript Logic Solutions](https://github.com/mariatupik/My-Python-Journey/blob/main/ItProger/solutions.js) — Algorithmic implementations including 2D array search and mathematical sequence calculations.
