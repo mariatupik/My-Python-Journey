@@ -1,6 +1,13 @@
-# My-Python-Journey
-Learning materials and practice from Python course.
-Currently, I am expanding my skills by taking two courses simultaneously: Python MOOC from the University of Helsinki and a comprehensive course by itProger.
+# My IT Professional Journey
+A specialized track focused on mastering the full software development lifecycle and system infrastructure. 
+
+**Current Focus:**
+* **Full-stack Development (itProger)** — Deep diving into various technology stacks, including Python, Django, SQL, and modern Frontend frameworks (React/Vue). I am mastering these tools to gain a **comprehensive understanding of how web systems function at every level** — from the first line of UI code to complex server-side logic and database architecture.
+* **Google IT Support Professional Certificate** — Building a professional foundation in system administration, networking, and security. This track covers Technical Support Fundamentals, Computer Networking, Operating Systems (Windows/Linux), System Administration, and IT Security.
+* **Docker & Containerization** — Upcoming track via MOOC.fi to bridge the gap between development and modern deployment workflows.
+
+**Completed Milestones:**
+* ✅ **Python MOOC (University of Helsinki)** — Successfully completed the full professional Python curriculum, including the final examination and advanced algorithmic solutions.
 
 ---
 
@@ -276,3 +283,19 @@ Introduction to core programming logic and data structure manipulation using Jav
 
 * **Key Projects:**
     * [JavaScript Logic Solutions](https://github.com/mariatupik/My-Python-Journey/blob/main/ItProger/solutions.js) — Algorithmic implementations including 2D array search and mathematical sequence calculations.
+
+### Module: Advanced JavaScript & Web Systems
+Comprehensive study of DOM architecture, asynchronous programming, and complex data handling to build robust web applications.
+
+* **Learning Objectives:**
+    * **DOM & Object Interaction:** Mastering the Document Object Model and working with complex objects.
+    * **Event Handling:** Implementing logic for keyboard, mouse, and touch screen events.
+    * **Asynchronous Programming:** Understanding the lifecycle of Promises, Generators, and Async/Await.
+    * **Modern Standards:** Utilizing ECMAScript features and Babel for cross-browser compatibility.
+    * **Advanced Logic:** Mastering closures, prototypes, and Proxy objects for enhanced data control.
+    * **Data Persistence:** Managing application state using LocalStorage for long-term data storage.
+
+* **Key Projects:**
+    * [JS Dynamic Comments System](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/JS-Dynamic-Comments-System) — A fully functional comment engine with real-time validation, dynamic injection, and persistent state logic.
+    * **[💬 Live Demo](https://mariatupik.github.io/My-Python-Journey/ItProger/JS-Dynamic-Comments-System/)**
+    * [Project Preview Asset](https://github.com/mariatupik/My-Python-Journey/blob/main/ItProger/preview.png) — Technical UI/UX visualization and component preview of the system.
