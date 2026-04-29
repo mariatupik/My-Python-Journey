@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <title>Washoo</title>
+</head>
+
+<body>
+    <header>
+        <span class="logo">Washoo</span>
+        <div class="nav">
+            <a href="#">Головна</a>
+            <a href="#">Про компанію</a>
+            <a href="#">Послуги</a>
+        </div>
+        <span class="menu" id="show-menu">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+    </header>
+
+    <div id="hidden-menu">
+        <span class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+        <h2>Меню сайту</h2>
+        <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Про компанію</a></li>
+            <li><a href="#">Послуги</a></li>
+        </ul>
+    </div>
+
+    <section class="full-page">
+        <h1>Washoo - зручний сервіс для всіх і кожного</h1>
+        <h3>швидкий, легкий, зручний</h3>
+        <button>Дізнайся більше <i class="fa-solid fa-arrow-right"></i></button>
+    </section>
+
+    <section class="features">
+        <div>
+            <img src="/img/fast-icon.png" alt="">
+            <h4>Швидкий</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div>
+            <img src="/img/cool-icon.png" alt="">
+            <h4>Крутий</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div>
+            <img src="/img/light-icon.png" alt="">
+            <h4>Легкий</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+    </section>
+
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="https://itproger.com/img/intensivs/csharp.svg" alt="">
+            </div>
+            <div class="swiper-slide"><img src="https://itproger.com/img/intensivs/python.svg" alt=""></div>
+            <div class="swiper-slide"><img src="https://itproger.com/img/intensivs/java.svg" alt=""></div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <section class="bg-fixed">
+        <h3>Форма підписки</h3>
+        <input type="email" placeholder="Ваша пошта">
+        <button>Підписатися <i class="fa-solid fa-arrow-right"></i></button>
+    </section>
+
+    <footer>
+        <div class="up-btn">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+        <p>Усі права захищені &copy;</p>
+        <div class="social">
+            <div><i class="fa-brands fa-youtube"></i></div>
+            <div><i class="fa-brands fa-facebook-f"></i></div>
+            <div><i class="fa-brands fa-twitter"></i></div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0-rc.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
