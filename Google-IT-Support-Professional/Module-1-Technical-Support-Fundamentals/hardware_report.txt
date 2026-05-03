@@ -1,0 +1,30 @@
+========================================
+ SYSTEM HARDWARE DIAGNOSTIC REPORT 
+========================================
+Generated on: 2026-05-03 14:17:08
+
+[+] OPERATING SYSTEM:
+    System: Windows 11
+    Architecture: AMD64
+
+[+] PROCESSOR (CPU):
+    Model: AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD
+    Physical Cores: 6
+    Total Threads: 12
+    Current Utilization: 17.2%
+
+[+] MEMORY (RAM):
+    Total RAM: 15.31 GB
+    Available RAM: 6.10 GB
+    Used RAM: 9.21 GB (60.1%)
+
+[+] DISK STORAGE:
+    Drive: C:\ (NTFS)
+      Total Size: 935.59 GB
+      Free Space: 276.46 GB
+      Used Space: 70.5%
+
+    Drive: D:\ (NTFS)
+      Total Size: 16.43 GB
+      Free Space: 452.90 MB
+      Used Space: 97.3%
