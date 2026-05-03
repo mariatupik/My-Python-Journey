@@ -1,13 +1,38 @@
 # My IT Professional Journey
-A specialized track focused on mastering the full software development lifecycle and system infrastructure. 
+A specialized track focused on mastering the full software development lifecycle, system infrastructure, and automated technical support.
 
 **Current Focus:**
 * **Full-stack Development (itProger)** — Deep diving into various technology stacks, including Python, Django, SQL, and modern Frontend frameworks (React/Vue). I am mastering these tools to gain a **comprehensive understanding of how web systems function at every level** — from the first line of UI code to complex server-side logic and database architecture.
-* **Google IT Support Professional Certificate** — Building a professional foundation in system administration, networking, and security. This track covers Technical Support Fundamentals, Computer Networking, Operating Systems (Windows/Linux), System Administration, and IT Security.
+* **Google IT Support Professional Certificate** — Building a solid foundation in sysadmin, networking, and security. 
+    * ✅ **Module 1: Technical Support Fundamentals** — *Completed.* Developed a **Hardware Diagnostic Tool** to automate system audits.
+    * ⏳ **Module 2: The Bits and Bytes of Computer Networking** — *In Progress.*
 * **Docker & Containerization** — Upcoming track via MOOC.fi to bridge the gap between development and modern deployment workflows.
 
 **Completed Milestones:**
 * ✅ **Python MOOC (University of Helsinki)** — Successfully completed the full professional Python curriculum, including the final examination and advanced algorithmic solutions.
+
+---
+
+## 🛡️ Google IT Support Professional Certificate
+*A comprehensive program covering the essentials of IT infrastructure, focusing on problem-solving and system administration.*
+
+### Module 1: Technical Support Fundamentals
+Focusing on the core hardware and software components of modern computing.
+
+**Learning Objectives:**
+* **Hardware & Architecture:** Identifying core internal components (CPU, RAM, Motherboard) and understanding the "Fetch-Execute" cycle.
+* **Operating Systems:** Mastering the basics of Windows and Linux environments, including file systems and permissions.
+* **Networking Basics:** Introduction to the TCP/IP model, DNS, and how the internet functions at a foundational level.
+* **Troubleshooting Logic:** Implementing an isolate-and-conquer approach to hardware and software issues.
+
+**Featured Project:**
+#### 🖥️ [Hardware Diagnostic Tool](https://github.com/mariatupik/My-Python-Journey/tree/main/Google-IT-Support-Professional/Module-1-Technical-Support-Fundamentals)
+A Python-based automation script designed for rapid system audits and asset management.
+
+*   **Core Logic:** Automates the collection of OS version, CPU utilization, and memory availability.
+*   **Storage Mapping:** Scans all disk partitions, handling `PermissionError` for system-protected areas.
+*   **Automation:** Generates a structured `hardware_report.txt` for technical logging.
+*   **Tech Stack:** Python, `psutil`, `platform` module.
 
 ---
 
