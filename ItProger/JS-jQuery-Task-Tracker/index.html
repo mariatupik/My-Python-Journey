@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список справ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1><i class="fa-solid fa-clipboard-list"></i>Список справ</h1>
+        
+        <input type="text" id="taskInput" placeholder="Завдання">
+        
+        <div class="buttons-wrapper">
+            <button id="addBtn"><i class="fa-solid fa-plus"></i>Додати</button>
+            <button id="displayBtn"><i class="fa-solid fa-list-ul"></i>Відобразити</button>
+        </div>
+
+        <div id="notification">Елемент був доданий</div>
+
+        <div id="taskList"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
