@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Simpy</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Simpy</div>
+        <nav>
+            <a href="{% url 'uslugi' %}">Послуги</a>
+            <a href="#">Контакти</a>
+            <a href="#">Про нас</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
