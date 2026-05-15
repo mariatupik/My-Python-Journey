@@ -7,10 +7,10 @@ A functional web application built with **Django**, focusing on clean URL routin
 ## 📸 Project Preview
 
 ### Home Page (`/`)
-![Home Page Preview](127.0.0.1_8000_.jpg)
+![Home Page Preview](preview_home.jpg)
 
 ### Services Page (`/uslugi/`)
-![Services Page Preview](127.0.0.1_8000_uslugi_.png)
+![Services Page Preview](preview_services.png)
 
 ---
 
