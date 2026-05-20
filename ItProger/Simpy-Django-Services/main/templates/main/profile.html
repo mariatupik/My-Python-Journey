@@ -1,0 +1,68 @@
+{% extends 'main/layout.html' %}
+{% block content %}
+<div class="profile-container">
+    {% if messages %}
+        {% for message in messages %}
+            <div id="temp-message" class="alert-success">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+    <h1 class="main-title">Кабінет користувача</h1>
+    
+    <div class="profile-header">
+        <div class="avatar-box">
+            <img src="{{ user.profile.img.url }}" alt="Avatar">
+        </div>
+        <div class="user-info">
+            <h5>@{{ user.username }}</h5>
+            <p><b>Email:</b> {{ user.email }}</p>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <form method="POST" enctype="multipart/form-data" class="update-form">
+        {% csrf_token %}
+        <h2 class="form-subtitle">Змінити дані про користувача</h2>
+        
+        <div class="field-group">
+            <label>Ім'я користувача*</label>
+            {{ u_form.username }}
+        </div>
+
+        <div class="field-group">
+            <label>Email*</label>
+            {{ u_form.email }}
+        </div>
+
+        <div class="field-group">
+            <label>Зображення профілю*</label>
+            {{ p_form.img }}
+        </div>
+
+        <div class="field-group">
+            <label>Виберіть стать*</label>
+            {{ p_form.gender }}
+        </div>
+
+        <div class="checkbox-group">
+            {{ p_form.is_delivery }}
+            <label>Згода на відправлення повідомлень на пошту</label>
+        </div>
+
+        <button type="submit" class="btn-yellow-outline">Оновити дані</button>
+    </form>
+</div>
+
+<script>
+    setTimeout(function() {
+        var msg = document.getElementById('temp-message');
+        if (msg) {
+            msg.style.opacity = '0';
+            setTimeout(function() { msg.style.display = 'none'; }, 500);
+        }
+    }, 3000);
+</script>
+
+{% endblock %}

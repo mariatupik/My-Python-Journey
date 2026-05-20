@@ -31,7 +31,16 @@ nav a {
     font-weight: 500;
     transition: color 0.3s;
 }
-
+nav a.profile-link {
+    color: #ffc107; 
+    border: 1px solid #ffc107;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+nav a.profile-link:hover {
+    background: #ffc107;
+    color: black;
+}
 nav a:hover { color: white; }
 
 .hero { 
@@ -121,4 +130,112 @@ background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145
 .grid div:hover .icon-style {
     transform: scale(1.2);
     transition: transform 0.3s ease;
+}
+
+
+.profile-container {
+    background: white;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px 50px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.main-title { 
+    color: #b8860b !important; 
+    font-size: 32px; 
+    margin-bottom: 25px; 
+}
+
+
+.profile-header { 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 25px; 
+}
+
+.avatar-box {
+    background: #46d1d1;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.avatar-box img { 
+    width: 60px; 
+    height: 60px; 
+    object-fit: contain; 
+}
+
+.user-info h5 { margin: 0; font-size: 18px; color: #333; }
+.user-info p { margin: 5px 0 0; color: #666; font-size: 14px; }
+
+.divider { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
+
+
+.form-subtitle { font-size: 26px; margin: 20px 0; color: #333; }
+
+.field-group { margin-bottom: 20px; }
+
+.field-group label { 
+    display: block; 
+    font-weight: bold; 
+    margin-bottom: 8px; 
+    font-size: 15px; 
+    color: #333;
+}
+
+
+.profile-form-input {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background: #fff; 
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif;
+}
+
+.file-info { font-size: 13px; color: #666; margin-bottom: 10px; }
+
+.checkbox-group { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin: 25px 0; 
+}
+
+
+.btn-yellow-outline {
+    background: white;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.btn-yellow-outline:hover { 
+    background: #ffc107; 
+    color: white; 
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: opacity 0.5s ease; /* Для плавного зникнення */
 }

@@ -12,6 +12,9 @@ A functional web application built with **Django**, focusing on clean URL routin
 ### Services Page (`/uslugi/`)
 ![Services Page Preview](preview_services.png)
 
+### User Profile (`/profile/`)
+![User Profile Preview](preview_profile.png)
+
 ---
 
 ## 🎯 Project Objectives & Tasks
@@ -20,12 +23,14 @@ A functional web application built with **Django**, focusing on clean URL routin
 * **Template Engine:** Implemented advanced HTML inheritance using a base `layout.html` and blocks to ensure DRY (Don't Repeat Yourself) code.
 * **Static Management:** Integrated professional CSS styling and assets through Django's static file system.
 * **Database & Admin:** Successfully performed migrations and set up the Django administrative interface for backend management.
+* **User Profile System:** Implemented a functional profile management page where users can update their personal information (username, email, profile image, gender, and subscription preferences). Data is correctly persisted in the Profile database table for the authenticated user.
 
 ## ✨ Key Features
 * **Dynamic Routing:** Seamless navigation between main sections of the site.
 * **Modular Design:** Clear separation between business logic (`views.py`) and presentation (`templates`).
 * **Responsive Layout:** A modern, mobile-friendly design for service presentation with clean UI cards.
 * **Admin Ready:** Includes a pre-configured backend for content management at `/admin/`.
+* **Interactive Profile Management:** Fully functional profile update system linked to the database.
 
 ## 🧰 Tech Stack
 * **Backend:** Python 3.x, Django 5.x
