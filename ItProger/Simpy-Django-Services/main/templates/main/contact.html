@@ -1,0 +1,55 @@
+{% extends 'main/layout.html' %}
+{% block content %}
+<div class="profile-container">
+    
+    {% if messages %}
+        {% for message in messages %}
+            <div id="temp-message" class="alert-success">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    <h1 class="main-title">Контактна форма</h1>
+    
+    <form method="POST" class="update-form">
+        {% csrf_token %}
+        
+        <div class="field-group">
+            <label>Тема повідомлення*</label>
+            {{ form.subject }}
+            {% if form.subject.errors %}
+                <span class="error-text">Це поле обов'язкове для заповнення.</span>
+            {% endif %}
+        </div>
+
+        <div class="field-group">
+            <label>Ваша електронна пошта*</label>
+            {{ form.email }}
+            {% if form.email.errors %}
+                <span class="error-text">Введіть дійсну адресу електронної пошти.</span>
+            {% endif %}
+        </div>
+
+        <div class="field-group">
+            <label>Текст повідомлення*</label>
+            {{ form.message }}
+            {% if form.message.errors %}
+                <span class="error-text">Це поле обов'язкове для заповнення.</span>
+            {% endif %}
+        </div>
+
+        <button type="submit" class="btn-yellow-outline">Надіслати повідомлення</button>
+    </form>
+</div>
+
+<script>
+    setTimeout(function() {
+        var msg = document.getElementById('temp-message');
+        if (msg) {
+            msg.style.opacity = '0';
+            setTimeout(function() { msg.style.display = 'none'; }, 500);
+        }
+    }, 3000);
+</script>
+{% endblock %}

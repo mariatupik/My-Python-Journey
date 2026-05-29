@@ -15,6 +15,12 @@ A functional web application built with **Django**, focusing on clean URL routin
 ### User Profile (`/profile/`)
 ![User Profile Preview](preview_profile.png)
 
+### Contacts Page (`/contact/`)
+![Contacts Page Preview](preview_contact.png)
+
+### User Authentication (`/login/`)
+![Login Page Preview](preview_login.png)
+
 ---
 
 ## 🎯 Project Objectives & Tasks
@@ -24,6 +30,8 @@ A functional web application built with **Django**, focusing on clean URL routin
 * **Static Management:** Integrated professional CSS styling and assets through Django's static file system.
 * **Database & Admin:** Successfully performed migrations and set up the Django administrative interface for backend management.
 * **User Profile System:** Implemented a functional profile management page where users can update their personal information (username, email, profile image, gender, and subscription preferences). Data is correctly persisted in the Profile database table for the authenticated user.
+* **Feedback & Automated Communication:** Integrated a fully functional feedback loop allowing users to submit messages directly through a verified contact form.
+* **Secure Session Control:** Implemented user authentication and route protection mechanisms to secure sensitive components.
 
 ## ✨ Key Features
 * **Dynamic Routing:** Seamless navigation between main sections of the site.
@@ -31,6 +39,10 @@ A functional web application built with **Django**, focusing on clean URL routin
 * **Responsive Layout:** A modern, mobile-friendly design for service presentation with clean UI cards.
 * **Admin Ready:** Includes a pre-configured backend for content management at `/admin/`.
 * **Interactive Profile Management:** Fully functional profile update system linked to the database.
+* **Contact Processing & Validation:** Form submissions undergo strict data validation checks before processing.
+* **Dual-Channel Message Routing:** Every validated message is simultaneously persistent into the database for admin reference and dispatched directly to the recipient's inbox via secure email protocols.
+* **Session Flash Alerts:** Successful message dispatches trigger user-friendly success notifications upon page redirect.
+* **Robust Authentication Subsystem:** Secure sign-in system leveraging Django’s native authentication framework, complete with route protection via `login_required` decorators and dynamic `?next=` URL redirects.
 
 ## 🧰 Tech Stack
 * **Backend:** Python 3.x, Django 5.x

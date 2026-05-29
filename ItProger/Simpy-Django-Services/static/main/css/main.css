@@ -31,17 +31,22 @@ nav a {
     font-weight: 500;
     transition: color 0.3s;
 }
+
 nav a.profile-link {
     color: #ffc107; 
     border: 1px solid #ffc107;
     padding: 5px 15px;
     border-radius: 20px;
 }
+
 nav a.profile-link:hover {
     background: #ffc107;
     color: black;
 }
-nav a:hover { color: white; }
+
+nav a:hover { 
+    color: white; 
+}
 
 .hero { 
     text-align: center; 
@@ -50,8 +55,8 @@ nav a:hover { color: white; }
     flex-direction: column;
     justify-content: center;
     align-items: center;
-background: #6b6b6b;
-background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145, 1) 65%, rgba(250, 247, 247, 1) 100%);
+    background: #6b6b6b;
+    background: linear-gradient(37deg, rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145, 1) 65%, rgba(250, 247, 247, 1) 100%);
 }
 
 .hero h1 { 
@@ -90,7 +95,10 @@ background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145
     padding: 80px 10%; 
 }
 
-.services-page h1 { font-size: 42px; margin-bottom: 50px; }
+.services-page h1 { 
+    font-size: 42px; 
+    margin-bottom: 50px; 
+}
 
 .grid { 
     display: grid;
@@ -117,8 +125,10 @@ background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145
     margin-top: 0;
 }
 
-.grid p { color: #666; font-size: 16px; }
-
+.grid p { 
+    color: #666; 
+    font-size: 16px; 
+}
 
 .icon-style {
     font-size: 40px;
@@ -148,7 +158,7 @@ background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145
     margin-bottom: 25px; 
 }
 
-
+/* --- Шапка профілю --- */
 .profile-header { 
     display: flex; 
     align-items: center; 
@@ -172,15 +182,33 @@ background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145
     object-fit: contain; 
 }
 
-.user-info h5 { margin: 0; font-size: 18px; color: #333; }
-.user-info p { margin: 5px 0 0; color: #666; font-size: 14px; }
+.user-info h5 { 
+    margin: 0; 
+    font-size: 18px; 
+    color: #333; 
+}
 
-.divider { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
+.user-info p { 
+    margin: 5px 0 0; 
+    color: #666; 
+    font-size: 14px; 
+}
 
+.divider { 
+    border: 0; 
+    border-top: 1px solid #eee; 
+    margin: 20px 0; 
+}
 
-.form-subtitle { font-size: 26px; margin: 20px 0; color: #333; }
+.form-subtitle { 
+    font-size: 26px; 
+    margin: 20px 0; 
+    color: #333; 
+}
 
-.field-group { margin-bottom: 20px; }
+.field-group { 
+    margin-bottom: 20px; 
+}
 
 .field-group label { 
     display: block; 
@@ -189,7 +217,6 @@ background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145
     font-size: 15px; 
     color: #333;
 }
-
 
 .profile-form-input {
     width: 100%; 
@@ -201,7 +228,11 @@ background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145
     font-family: 'Inter', sans-serif;
 }
 
-.file-info { font-size: 13px; color: #666; margin-bottom: 10px; }
+.file-info { 
+    font-size: 13px; 
+    color: #666; 
+    margin-bottom: 10px; 
+}
 
 .checkbox-group { 
     display: flex; 
@@ -209,7 +240,6 @@ background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145
     gap: 10px; 
     margin: 25px 0; 
 }
-
 
 .btn-yellow-outline {
     background: white;
@@ -237,5 +267,106 @@ background: linear-gradient(37deg,rgba(107, 107, 107, 1) 35%, rgba(158, 145, 145
     margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
-    transition: opacity 0.5s ease; /* Для плавного зникнення */
+    transition: opacity 0.5s ease;
+}
+
+.error-text {
+    color: #e63946;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+}
+
+.login-container {
+    background: white;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 50px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    font-family: 'Inter', sans-serif;
+}
+
+.login-container h2 {
+    color: #b8860b; 
+    font-size: 32px; 
+    margin-top: 0;
+    margin-bottom: 30px; 
+}
+
+/* Стилізація абзаців <p>, які генерує Django навколо поля */
+.login-container p {
+    margin-bottom: 25px;
+}
+
+
+.login-container label {
+    display: block; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    font-size: 15px; 
+    color: #333;
+}
+
+/* Стилізація самих текстових інпутів, щоб вони були як у контактах */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background: #fff; 
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    transition: border-color 0.3s;
+}
+
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    border-color: #ffc107;
+    outline: none;
+}
+
+
+.btn-login {
+    background: white;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.btn-login:hover { 
+    background: #ffc107; 
+    color: white; 
+}
+
+
+.login-message {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.msg-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.msg-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
 }
