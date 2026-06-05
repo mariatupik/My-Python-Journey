@@ -1,0 +1,29 @@
+{% extends 'courses/base.html' %}
+
+{% block title %}Home — Lear&amp;Rock{% endblock %}
+
+{% block content %}
+<div class="courses-grid">
+    {% for course in object_list %}
+        <div class="course-card">
+            <div class="course-card-image">
+                {% if course.image %}
+                    <img src="{{ course.image.url }}" alt="{{ course.title }}">
+                {% else %}
+                    <div class="no-image-placeholder">Зображення відсутнє</div>
+                {% endif %}
+            </div>
+            
+            <div class="course-card-content">
+                <h3 class="course-card-title">{{ course.title }}</h3>
+                <a href="{% url 'course_detail' course.slug %}" class="btn-view">Переглянути</a>
+            </div>
+        </div>
+    {% empty %}
+        <div class="empty-state">
+            <p>Курсів поки що немає. Будьте першим, хто додасть курс!</p>
+            <a href="{% url 'course_add' %}" class="btn-custom" style="margin-top: 15px;">Додати курс</a>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

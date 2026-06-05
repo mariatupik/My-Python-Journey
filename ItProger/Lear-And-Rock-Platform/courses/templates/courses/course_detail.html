@@ -1,0 +1,35 @@
+{% extends 'courses/base.html' %}
+
+{% block content %}
+<div class="card">
+    <h1>{{ object.title }}</h1>
+    
+    <div class="page-grid">
+        <div class="course-image">
+            {% if object.image %}
+                <img src="{{ object.image.url }}" alt="{{ object.title }}" style="width:100%; border-radius:12px;">
+            {% endif %}
+        </div>
+
+        <div class="course-description">
+            <h3>Опис курсу</h3>
+            <p>{{ object.description }}</p>
+            
+            <h3 style="margin-top:20px;">Уроки</h3>
+            <div class="lesson-list">
+                {% for lesson in object.lessons.all %}
+                    <a href="{% url 'lesson_detail' slug=object.slug lesson_slug=lesson.slug %}" class="lesson-link">
+                        {{ lesson.title }}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    {% if user.is_authenticated %}
+        <div style="margin-top: 30px;">
+            <a href="{% url 'course_delete' slug=object.slug %}" class="btn" style="background-color: var(--error-color);">Видалити курс</a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

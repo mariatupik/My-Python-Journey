@@ -1,0 +1,14 @@
+{% extends 'courses/base.html' %}
+{% block content %}
+<div class="card">
+    <h1>Реєстрація на сайті</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn">Зареєструватися</button>
+    </form>
+    <div style="margin-top: 20px;">
+        <small class="text-muted">Уже зареєстровані? <a href="{% url 'login' %}">Увійти в особистий кабінет</a></small>
+    </div>
+</div>
+{% endblock %}

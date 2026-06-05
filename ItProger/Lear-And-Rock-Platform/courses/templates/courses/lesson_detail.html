@@ -1,0 +1,69 @@
+{% extends "courses/base.html" %}
+{% load static %}
+
+{% block title %}{{ lesson.title }}{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="page-grid">
+        <div>
+            <header class="lesson-header">
+                <h1>{{ lesson.title }}</h1>
+                <p>Курс: <a href="{{ lesson.course.get_absolute_url }}">{{ lesson.course.title }}</a></p>
+            </header>
+            
+            {% if lesson.video_url %}
+            <section class="lesson-video">
+                <video controls src="{{ lesson.video_url }}"></video>
+            </section>
+            {% endif %}
+        </div>
+
+        <section class="lesson-body">
+            <h3>Матеріал лекції</h3>
+            <p>{{ lesson.text|linebreaks }}</p>
+        </section>
+    </div>
+
+    <section class="comment-section">
+        <h2 class="section-heading">Додати коментар</h2>
+
+        {% if user.is_authenticated %}
+        <form method="post" class="comment-form" novalidate>
+            {% csrf_token %}
+            {{ form.user }}
+            {{ form.lesson }}
+            <div class="field-group">
+                <label for="{{ form.text.id_for_label }}">{{ form.text.label }}</label>
+                {{ form.text }}
+                {% if form.text.errors %}
+                <ul class="field-errors">{% for error in form.text.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+                {% endif %}
+            </div>
+            <button type="submit" class="btn-submit">Додати коментар</button>
+        </form>
+        {% else %}
+        <p class="login-notice">
+            <a href="{% url 'login' %}?next={{ request.path }}">Увійти</a>, щоб залишити коментар.
+        </p>
+        {% endif %}
+
+        <h2 class="section-heading comments-list-heading">Всі коментарі</h2>
+        {% if comments %}
+        <ul class="comment-list">
+            {% for comment in comments %}
+            <li class="comment-card">
+                <p class="comment-text"> {{ comment.text }}</p>
+                <span class="comment-author">Автор: {{ comment.user.username }}</span>
+                <time class="comment-date" datetime="{{ comment.created_at|date:'c' }}">
+                    {{ comment.created_at|date:"M j, Y · H:i" }}
+                </time>
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p class="no-comments">Коментарів поки що немає. Будьте першим!</p>
+        {% endif %}
+    </section>
+</div>
+{% endblock %}

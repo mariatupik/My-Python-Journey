@@ -1,0 +1,68 @@
+{% extends 'courses/base.html' %}
+
+{% block title %}Додати новий курс — Lear&amp;Rock{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>Додати новий курс</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        {% for field in form %}
+        <div class="field {% if field.errors %}has-error{% endif %}">
+            <label for="{{ field.id_for_label }}">{{ field.label }}:</label>
+            {% if field.errors %}
+                <ul class="errorlist">{% for error in field.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+            {% endif %}
+            {{ field }}
+        </div>
+        {% endfor %}
+
+        <hr>
+        <h3>Лекції</h3>
+        {{ lessons.management_form }}
+        
+        <div id="lessons-container">
+            {% for lesson_form in lessons %}
+                <div class="lesson-form">
+                    {% for field in lesson_form %}
+                        <div class="field">
+                            {{ field.label_tag }}
+                            {{ field }}
+                            {% if field.errors %}
+                                <ul class="errorlist">{% for error in field.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+
+        <button type="button" id="add-lesson-btn" class="btn-custom">Додати урок +</button>
+
+        {% if form.non_field_errors or lessons.non_form_errors %}
+            <ul class="errorlist">
+                {% for error in form.non_field_errors %}<li>{{ error }}</li>{% endfor %}
+                {% for error in lessons.non_form_errors %}<li>{{ error }}</li>{% endfor %}
+            </ul>
+        {% endif %}
+
+        <button type="submit" id="add-btn" class="btn-custom">Додати</button>
+    </form>
+</div>
+
+<script>
+    document.getElementById('add-lesson-btn').onclick = function() {
+        let container = document.getElementById('lessons-container');
+        let totalForms = document.getElementById('id_lessons-TOTAL_FORMS');
+        let newForm = container.querySelector('.lesson-form').cloneNode(true);
+        
+        let formCount = parseInt(totalForms.value);
+        newForm.innerHTML = newForm.innerHTML.replace(/-0-/g, '-' + formCount + '-');
+        
+        container.appendChild(newForm);
+        totalForms.value = formCount + 1;
+    };
+</script>
+{% endblock %}
