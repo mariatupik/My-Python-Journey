@@ -17,4 +17,4 @@ jobs:
         with:
           context: ./express-cicd
           push: true
-          tags: ВАШ_ЛОГІН_DOCKERHUB/express_app:latest
+          tags: mariiat/express_app:latest
