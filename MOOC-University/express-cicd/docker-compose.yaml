@@ -1,6 +1,6 @@
 services:
   app:
-    image: mariiat/express_app:latest
+    image: ВАШ_ЛОГІН_DOCKERHUB/express_app:latest
     ports:
       - "3000:3000"
     restart: always
