@@ -1,0 +1,12 @@
+services:
+  app:
+    image: ВАШ_ЛОГІН_DOCKERHUB/express_app:latest
+    ports:
+      - "3000:3000"
+    restart: always
+
+  watchtower:
+    image: containrrr/watchtower
+    command: --interval 10 --cleanup
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
