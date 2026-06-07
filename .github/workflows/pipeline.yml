@@ -15,6 +15,6 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - uses: docker/build-push-action@v6
         with:
-          context: ./express-cicd
+          context: ./MOOC-University/express-cicd
           push: true
           tags: mariiat/express_app:latest
