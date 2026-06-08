@@ -2,6 +2,10 @@
 
 This is an upgraded version of the original Time Converter, rebuilt using the **Flet** framework. It features a modern Material Design interface, enhanced logic, and flexible unit selection.
 
+## 🌐 Live Application
+The application is deployed and automatically updated via a CI/CD pipeline on Render:
+👉 **[flet-time-converter-latest.onrender.com](https://flet-time-converter-latest.onrender.com/)**
+
 ## 📌 Features
 * **Dynamic Unit Selection:** Use a Dropdown menu to select the input unit (Days, Hours, Minutes, or Seconds).
 * **Comprehensive Calculations:** Instantly converts the input into 5 different time units simultaneously.
@@ -23,4 +27,4 @@ The application workflow is shown below:
 ## 🚀 How to Run
 1. Ensure you have Python installed, then install the Flet library and run the app:
    ```bash
-   pip install flet && python main.py
+   pip install flet && python converter.py
