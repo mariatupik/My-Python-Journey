@@ -1,0 +1,16 @@
+2026-05-23 15:31:47.562172 | Alert: Process 'MemCompression' (Pid: 5188) Is Using 0.0% Cpu And 917.38 Mb Ram
+2026-05-23 15:31:49.666304 | Alert: Process 'Code.exe' (Pid: 49532) Is Using 0.0% Cpu And 597.57 Mb Ram
+2026-05-23 15:31:49.701942 | Alert: Process 'chrome.exe' (Pid: 51628) Is Using 0.0% Cpu And 971.22 Mb Ram
+2026-05-23 15:31:49.804417 | Alert: Process 'Code.exe' (Pid: 64468) Is Using 0.0% Cpu And 567.64 Mb Ram
+2026-05-23 15:32:49.879172 | Alert: Process 'System Idle Process' (Pid: 0) Is Using 1003.9% Cpu And 0.01 Mb Ram
+2026-05-23 15:32:51.028829 | Alert: Process 'MemCompression' (Pid: 5188) Is Using 0.3% Cpu And 880.15 Mb Ram
+2026-05-23 15:32:52.943093 | Alert: Process 'chrome.exe' (Pid: 51628) Is Using 49.9% Cpu And 1222.76 Mb Ram
+2026-05-23 15:32:53.102740 | Alert: Process 'Code.exe' (Pid: 64468) Is Using 0.0% Cpu And 567.64 Mb Ram
+2026-05-23 15:33:53.173750 | Alert: Process 'System Idle Process' (Pid: 0) Is Using 970.7% Cpu And 0.01 Mb Ram
+2026-05-23 15:33:54.463839 | Alert: Process 'MemCompression' (Pid: 5188) Is Using 3.4% Cpu And 1014.19 Mb Ram
+2026-05-23 15:33:56.701772 | Alert: Process 'chrome.exe' (Pid: 51628) Is Using 78.6% Cpu And 947.53 Mb Ram
+2026-05-23 15:33:56.866591 | Alert: Process 'Code.exe' (Pid: 64468) Is Using 0.4% Cpu And 523.55 Mb Ram
+2026-05-23 15:34:56.954291 | Alert: Process 'System Idle Process' (Pid: 0) Is Using 955.8% Cpu And 0.01 Mb Ram
+2026-05-23 15:34:58.349561 | Alert: Process 'MemCompression' (Pid: 5188) Is Using 0.2% Cpu And 989.91 Mb Ram
+2026-05-23 15:35:00.252348 | Alert: Process 'chrome.exe' (Pid: 51628) Is Using 83.1% Cpu And 992.74 Mb Ram
+2026-05-23 15:35:00.331839 | Alert: Process 'Code.exe' (Pid: 64468) Is Using 0.5% Cpu And 522.85 Mb Ram

@@ -22,9 +22,11 @@ The script continuously monitors system activity and appends alerts to the log f
 Ensure the target OS dependencies are met. Navigate to the root directory containing your project and run:
 
 ```bash
+
 pip install psutil
 
 ### 2. Execution
+
 To observe the process monitoring function in real-time, execute the following command in your terminal:
 
 ```bash
