@@ -427,6 +427,24 @@ Enhancing static web pages with interactive behaviors, DOM manipulation librarie
 
 ---
 
+### Module: Backend Web Development (Django Framework)
+Building scalable, secure, and data-driven web applications using Python's premier MVC/MVT framework.
+
+* **Learning Objectives:**
+    * **MVT Architecture & Routing:** Structuring modular Django applications with clean URL routing, views logic, and human-readable slug-based paths (`<slug:slug>`).
+    * **Template Inheritance (DRY):** Implementing advanced HTML inheritance structures using base layouts and block tags to eliminate redundant frontend code.
+    * **Advanced Database Modeling:** Designing relational models with complex uniqueness constraints (`unique_together`) and handling dynamic media assets (`ImageField`).
+    * **Atomic Form Processing:** Leveraging `inlineformset_factory` to safely process and create parent instances alongside multiple nested child elements within a single atomic POST request.
+    * **Form Security & Mutation:** Mastering `ModelForm` configuration shading (`forms.HiddenInput()`), form initialization modifications, and handling POST data mutability inside Class-Based Views.
+    * **User Authentication & Security:** Deploying secure session controls, custom user registration/login subsystems, and route protection using decorators and mixins with dynamic redirects.
+    * **Automated Communication Pipelines:** Formulating secure contact forms with server-side validation, database logging, and automated email dispatch capabilities via SMTP protocols.
+
+* **Key Projects:**
+    * [Simpy Django Services](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Simpy-Django-Services) — A functional, multi-page Django web application featuring user authentication, database-backed profile management, and a dual-channel automated feedback system.
+    * [Lear&Rock E-Learning Platform](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Lear-And-Rock-Platform) — A robust educational platform showcasing complex relational data handling, nested inline formsets for dynamic lesson creation, and atomic model-form validations.
+
+---
+
 ### Module: Full-Stack Web Development
 *Architecting decoupled web applications, RESTful API design, and asynchronous data synchronization.*
 
