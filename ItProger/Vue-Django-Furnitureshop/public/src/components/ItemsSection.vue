@@ -11,7 +11,7 @@
 
       <div class="card-footer">
         <span class="price">{{ item.price }}$</span>
-        <button class="btn-cart" @click="$emit('add-to-cart', item)">🛒</button>
+        <button class="btn-cart" @click="handleBuy(item)">🛒 Купити</button>
       </div>
 
       <FormEdit :item="item" />
@@ -36,7 +36,13 @@ export default {
     }
   },
 
-  emits: ['add-to-cart']
+  emits: ['add-to-buy'],
+
+  methods: {
+    handleBuy(item) {
+      this.$emit('add-to-buy', item); 
+    }
+  }
 }
 </script>
 
@@ -77,10 +83,12 @@ export default {
 }
 
 .card-footer {
-  display: flex;
+display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px 12px;
+  padding: 12px 16px; 
+  margin-top: auto;
+  border-top: 1px solid #f0f0f0;
 }
 
 .price {
@@ -90,11 +98,28 @@ export default {
 }
 
 .btn-cart {
-  background: none;
+  background-color: #1a5c3a; 
+  color: #fff;
   border: none;
-  font-size: 22px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
-  color: #1a5c3a;
+  transition: all 0.3s ease; 
+  display: flex;
+  align-items: center;
+  gap: 8px
+}
+
+.btn-cart:hover {
+  background-color: #154d30;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px); 
+}
+
+.btn-cart:active {
+  transform: translateY(0);
 }
 
 

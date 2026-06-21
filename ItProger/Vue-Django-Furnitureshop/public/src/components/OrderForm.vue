@@ -56,7 +56,7 @@ export default {
 
 <template>
   <div>
-    <h1>Оформление заказа</h1>
+    <h1>Оформлення замовлення</h1>
     <div class="data">
         <div class="basket" v-if="this.basket.length > 0">
             <div class="item" v-for="el in basket" :key="el.slug">
@@ -76,7 +76,7 @@ export default {
             <input type="text" v-model="surname" placeholder="Ваше прізвище">
             <input type="email" v-model="email" placeholder="Ваш email">
             <input type="phone" v-model="phone" placeholder="Телефон">
-            <button type="button" @click="sendData()">Купить</button>
+            <button type="button" @click="sendData()">Купити</button>
         </form>
     </div>
   </div>

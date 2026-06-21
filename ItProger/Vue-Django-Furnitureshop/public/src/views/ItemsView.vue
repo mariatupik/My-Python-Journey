@@ -5,7 +5,13 @@ import ItemsSection from '../components/ItemsSection.vue';
 
 export default {
   props: ['basket', 'addToBasket', 'items'], 
-  components: { Header, HeadSection, ItemsSection }
+  components: { Header, HeadSection, ItemsSection },
+  methods: {
+    prepareOrder(item) {
+      this.addToBasket(item); 
+      this.$router.push('/order'); 
+    }
+  }
 }
 </script>
 
@@ -13,6 +19,10 @@ export default {
   <div>
     <Header :basket="basket" />
     <HeadSection />
-    <ItemsSection :items="items" :addToBasket="addToBasket" /> 
+    <ItemsSection 
+      :items="items" 
+      :addToBasket="addToBasket" 
+      @add-to-buy="prepareOrder"
+    />
   </div>
 </template>
