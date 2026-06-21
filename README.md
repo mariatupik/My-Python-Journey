@@ -1,42 +1,123 @@
 # My IT Professional Journey
-A specialized track focused on mastering the full software development lifecycle, system infrastructure, and automated technical support.
 
-**Current Focus:**
-* **Full-stack Development (itProger)** — Deep diving into various technology stacks, including Python, Django, SQL, and modern Frontend frameworks (React/Vue). I am mastering these tools to gain a **comprehensive understanding of how web systems function at every level** — from the first line of UI code to complex server-side logic and database architecture.
-* **Google IT Support Professional Certificate** — Building a solid foundation in sysadmin, networking, and security. 
-    * ✅ **Module 1: Technical Support Fundamentals** — *Completed.* Developed a **Hardware Diagnostic Tool** to automate system audits.
-    * ⏳ **Module 2: The Bits and Bytes of Computer Networking** — *In Progress.*
-* **Docker & Containerization** — Upcoming track via MOOC.fi to bridge the gap between development and modern deployment workflows.
+A specialized track focused on mastering the full software development lifecycle, secure systems infrastructure, and cloud-native application deployment.
 
-**Completed Milestones:**
-* ✅ **Python MOOC (University of Helsinki)** — Successfully completed the full professional Python curriculum, including the final examination and advanced algorithmic solutions.
+**Current Focus & Active Tracks:**
+* **🛡️ Systems & Data Security (Google Lifecycle):** Advanced exploration of operational environment hardening via the *Tools of the Trade: Linux and SQL* curriculum. Focusing on enterprise user privilege management, shell automation, and secure database interactions.
+* **🚢 Cloud-Native Orchestration (University of Helsinki):** Transitioning from standalone container structures to enterprise-grade microservices management using Kubernetes architectures, scaling dynamic workloads, and automating cluster networking.
+* **🤖 Applied Artificial Intelligence (Google AI Essentials Specialization):** Integrating advanced prompt engineering mechanics, leveraging automated AI pipelines to accelerate software engineering, and managing ethical risk mitigation frameworks.
+
+**Completed Tracks & Verified Credentials:**
+* ✅ **Python Developer Program** — Fully completed training and defended the graduation project (itProger Diploma).
+* ✅ **Google IT Support Professional Certificate** — Fully certified across the 6-course enterprise IT infrastructure curriculum (Coursera / Google Credential).
+* ✅ **DevOps with Docker & Docker Compose** — Completed the practical cloud infrastructure and containerization tracks (University of Helsinki / Eficode).
+* ✅ **Advanced Python Programming MOOC** — Completed the full professional curriculum and passed the final examination (University of Helsinki).
 
 ---
 
 ## 🛡️ Google IT Support Professional Certificate
 *A comprehensive program covering the essentials of IT infrastructure, focusing on problem-solving and system administration.*
 
-### Module 1: Technical Support Fundamentals
-Focusing on the core hardware and software components of modern computing.
+### Program Core Competencies
+Focusing on enterprise hardware validation, cross-platform operating systems, and cryptographic security protocols.
 
 **Learning Objectives:**
-* **Hardware & Architecture:** Identifying core internal components (CPU, RAM, Motherboard) and understanding the "Fetch-Execute" cycle.
-* **Operating Systems:** Mastering the basics of Windows and Linux environments, including file systems and permissions.
-* **Networking Basics:** Introduction to the TCP/IP model, DNS, and how the internet functions at a foundational level.
-* **Troubleshooting Logic:** Implementing an isolate-and-conquer approach to hardware and software issues.
-
-**Featured Project:**
-#### 🖥️ [Hardware Diagnostic Tool](https://github.com/mariatupik/My-Python-Journey/tree/main/Google-IT-Support-Professional/Module-1-Technical-Support-Fundamentals)
-A Python-based automation script designed for rapid system audits and asset management.
-
-*   **Core Logic:** Automates the collection of OS version, CPU utilization, and memory availability.
-*   **Storage Mapping:** Scans all disk partitions, handling `PermissionError` for system-protected areas.
-*   **Automation:** Generates a structured `hardware_report.txt` for technical logging.
-*   **Tech Stack:** Python, `psutil`, `platform` module.
+* **Network Engineering & Protocols:** Deep understanding of the TCP/IP model, dynamic routing algorithms, DNS architectures, DHCP configuration, and packet analysis via standard utilities.
+* **Multi-Platform SysAdmin:** Advanced administration of Windows and Linux enterprise environments, managing user access layers, file system structures, and automation via CLI shells (Bash/PowerShell).
+* **Infrastructure Services:** Configuring essential local and cloud system services, including database backends, directory systems, and storage area networks.
+* **IT Security & Cryptography:** Deploying defense-in-depth frameworks, understanding asymmetric/symmetric encryption systems, firewall architectures, and analyzing system vulnerabilities.
+* **Troubleshooting Automation:** Implementing programmatic diagnostic approaches to handle complex infrastructure degradation events.
 
 ---
 
-## 🏛 University of Helsinki Path (Python MOOC)
+### Module 1: Technical Support Fundamentals
+Focusing on core hardware mechanics, multi-platform environments, and infrastructure scripting automation.
+
+**Featured Infrastructure Projects:**
+
+* #### 🖥️ [System Health Monitor Script](https://github.com/mariatupik/My-Python-Journey/tree/main/Google-IT-Support-Professional/Module-1-Technical-Support-Fundamentals/hardware-diagnostic-tool)
+  An automated background daemon designed for real-time resource tracking and proactive infrastructure alerting.
+    * **Resource Threshold Tracking:** Monitors real-time CPU utilization metrics and triggers runtime flags when internal thresholds (e.g., >80% processor load) are breached.
+    * **Memory & Storage Analytics:** Assesses volatile RAM telemetry and disk sector allocations to ensure environment stability.
+    * **Automated Diagnostic Logging:** Pipelines active system metrics into timestamped structured logs (`health_log.txt`) via the native Python `datetime` ecosystem.
+    * **Tech Stack:** Python 3.x, `psutil` framework, event-driven time subsystems.
+
+* #### ⚙️ [Hardware Asset Diagnostic Tool](https://github.com/mariatupik/My-Python-Journey/tree/main/Google-IT-Support-Professional/Module-1-Technical-Support-Fundamentals/system_monitor)
+  An enterprise-grade asset management script engineered for rapid hardware architecture extraction and technical auditing.
+    * **Environment Discovery:** Programmatically determines underlying OS distributions, architecture kernels, and multi-core CPU specifications.
+    * **Partition Error Hardening:** Maps active storage arrays across the root directory while maintaining execution stability using strict `PermissionError` handlers for protected system blocks.
+    * **Structured Reporting:** Compiles hardware parameters into clean, standardized `hardware_report.txt` logs suitable for corporate inventory injection.
+    * **Tech Stack:** Python 3.x, `psutil` (Process and System Utilities), `platform` introspection module.
+
+---
+
+### Module 2: The Bits and Bytes of Computer Networking
+Focusing on the Transport and Network layers of the TCP/IP model, packet routing, DNS resolution mechanics, and socket-level network auditing.
+
+**Featured Infrastructure Projects:**
+
+* #### 📡 [TCP Port Scanner Tool](https://github.com/mariatupik/My-Python-Journey/tree/main/Google-IT-Support-Professional/Module-2-Computer-Networking/TCP-Port-Scanner)
+  A low-level network security auditing script engineered to discover active network services via Transport Layer protocol simulation.
+    * **Three-Way Handshake Logic:** Implements programmatic TCP connection attempts to detect open service ports (HTTP, SSH, FTP) on a target host.
+    * **Socket Programming:** Utilizes raw IPv4 socket interfaces with strict timeout bounds to handle connection drops and network latency.
+    * **Network Audit Resilience:** Features graceful exception handlers for runtime DNS failures and blocking connection drops to guarantee scan stability.
+    * **Tech Stack:** Python 3.x, `socket` API, `datetime` session logging.
+
+* #### 🌍 [IP Geolocation & DNS Resolver](https://github.com/mariatupik/My-Python-Journey/tree/main/Google-IT-Support-Professional/Module-2-Computer-Networking/IP-Geolocation-Tool)
+  A network diagnostic utility built to analyze the relationship between human-readable application layers and physical server routing infrastructure.
+    * **DNS Resolution Subsystem:** Converts application hostnames into structural IPv4 addresses using low-level socket resolution utilities.
+    * **REST API Integration:** Pipelines resolved IP vectors into external geo-telemetry endpoints to extract server coordinates (Lat/Long), ISP information, and regional routing targets.
+    * **Infrastructure Mapping:** Isolates host distribution layers to verify edge-server locations and physical cloud system placement.
+    * **Tech Stack:** Python 3.x, `requests` library, `socket` module.
+
+---
+
+### Module 3: Operating Systems and You: Becoming a Power User
+Focusing on low-level operating system architectures, cross-platform infrastructure automation, multi-user privilege structures, and program execution control.
+
+**Featured Infrastructure Projects:**
+
+* #### 🖥️ [Linux Server Monitor & Automation Script](https://github.com/mariatupik/My-Python-Journey/tree/main/Google-IT-Support-Professional/Module-3-Operating-Systems/Server_Monitor_Project)
+  A production-ready automation engine designed for system administrators to perform resource monitoring, network validation, and automated process management.
+    * **Automated Incident Resolution (Process Killer):** Continuously audits running instances and dispatches native OS signals (`SIGKILL` / signal 9) to forcefully terminate frozen or blacklisted targets to prevent memory exhaustion.
+    * **Cross-Platform Network Diagnostics:** Evaluates remote infrastructure availability via raw Ping utilities, featuring platform-specific argument injection that silently adapts between Windows (`-n`) and Linux (`-c`) flags.
+    * **Log Parsing Subsystem (Python-Grep):** Implements a high-performance custom log parser that scans text streams, isolates critical `WARNING` and `ERROR` alerts, and consolidates the top 10 anomalies into an isolated dashboard.
+    * **Tech Stack:** Python 3.x, `psutil` (Process and System Utilities), `subprocess` core module, platform abstraction hooks.
+
+* #### ⚙️ [Server Process Monitor Tool](https://github.com/mariatupik/My-Python-Journey/tree/main/Google-IT-Support-Professional/Module-3-Operating-Systems/Process_Monitor_Tool)
+  A background monitoring daemon developed to secure server infrastructure against performance bottlenecks and thread deadlocks.
+    * **Dynamic Threshold Evaluation:** Intercepts real-time CPU percentages and volatile RAM usage for all operational processes against configurable resource limits.
+    * **Persistent Incident Tracking:** Automatically generates long-term system state history, appending structured, timestamped telemetry directly into a dedicated `ProcessLog.txt` file upon anomaly detection.
+    * **Cross-Platform Resource Mapping:** Guarantees uniform kernel state extraction across both Unix-like and NT file systems without requiring architecture-specific modifications.
+    * **Tech Stack:** Python 3.x, `psutil` infrastructure framework, standard text file I/O pipelines.
+
+---
+
+## 🏛 University of Helsinki Path
+
+A specialized academic track from the Department of Computer Science, focusing on advanced software engineering algorithms, clean code patterns, and modern cloud-native container infrastructure.
+
+---
+
+### 🚢 Track: DevOps & Cloud Infrastructure
+Advanced production-level infrastructure training to bridge the gap between application environments and scalable deployment workflows.
+
+**Learning Objectives:**
+* **Multi-Stage Containerization:** Crafting optimized, secure production Docker images using slim base layers and multi-stage build patterns to isolate build-time environments.
+* **Orchestration & Microservices:** Coordinating complex multi-container systems using Docker Compose configuration files.
+* **Container Security & Optimization:** Enforcing container hardening by managing file ownership, tracking image security boundaries, and binding services to non-root system users (`USER appuser`).
+* **Automated CI/CD Pipelines:** Engineering automated GitHub Actions workflows triggered on repository updates to build, tag, and publish images directly to Docker Hub.
+* **Cloud Infrastructure & Lifecycle Automation:** Implementing continuous deployment systems on Render utilizing secure dynamic webhooks (`curl` hooks) and configuring automated container updates via Watchtower ecosystems.
+
+**Key Projects & Code:**
+* [Advanced Time Converter (Flet Infrastructure)](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Flet-Time-Converter) — A responsive Python application wrapped in a highly-optimized multi-stage Docker configuration, integrated with a functional GitHub Actions continuous deployment pipeline to Render.
+    * **[🌐 Live Application](https://flet-time-converter-latest.onrender.com)**
+* [Express CI/CD Workflow](https://github.com/mariatupik/My-Python-Journey/tree/main/MOOC-University/express-cicd) — A specialized Node.js backend infrastructure architecture showcasing Docker Compose coordination, localized container testing, and Watchtower automated image rotation.
+
+---
+
+### 🐍 Track: Advanced Python Programming (Python MOOC)
+Comprehensive assessment of algorithmic logic and clean software development principles under official university examination environments.
 
 ## Part 1: Foundations
 This section covers the essential building blocks of Python programming.
@@ -309,6 +390,8 @@ Introduction to core programming logic and data structure manipulation using Jav
 * **Key Projects:**
     * [JavaScript Logic Solutions](https://github.com/mariatupik/My-Python-Journey/blob/main/ItProger/solutions.js) — Algorithmic implementations including 2D array search and mathematical sequence calculations.
 
+---
+
 ### Module: Advanced JavaScript & Web Systems
 Comprehensive study of DOM architecture, asynchronous programming, and complex data handling to build robust web applications.
 
@@ -323,4 +406,44 @@ Comprehensive study of DOM architecture, asynchronous programming, and complex d
 * **Key Projects:**
     * [JS Dynamic Comments System](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/JS-Dynamic-Comments-System) — A fully functional comment engine with real-time validation, dynamic injection, and persistent state logic.
     * **[💬 Live Demo](https://mariatupik.github.io/My-Python-Journey/ItProger/JS-Dynamic-Comments-System/)**
-    * [Project Preview Asset](https://github.com/mariatupik/My-Python-Journey/blob/main/ItProger/preview.png) — Technical UI/UX visualization and component preview of the system.
+
+---
+
+### Module: Interactive Web Development (jQuery & UI Components)
+Enhancing static web pages with interactive behaviors, DOM manipulation libraries, and dynamic UI updates.
+
+* **Learning Objectives:**
+    * **DOM Manipulation & Animations:** Utilizing jQuery for dynamic class toggling, custom toast notifications, and smooth mobile sidebar transitions.
+    * **State-to-UI Pattern:** Managing application state within internal data structures (arrays) and handling synchronized dynamic DOM rendering.
+    * **Third-Party Integration:** Implementing responsive, touch-enabled slider engines using Swiper.js.
+    * **Animation Queue Management:** Utilizing `.stop(true, true)` and chaining techniques to prevent UI glitching during rapid user interactions.
+    * **Event-Driven UX:** Crafting smart scroll-activated navigation bars, rapid input filtering, and precise multi-element loop indexing via `$.each`.
+
+* **Key Projects:**
+    * [Washoo — Modern Service Landing Page](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Washoo-Service-Landing) — A professional, high-fidelity landing page showcasing event-driven programming, parallax architectures, and custom sidebar navigation.
+    * **[🚀 Washoo Live Demo](https://mariatupik.github.io/My-Python-Journey/ItProger/Washoo-Service-Landing/)**
+    * [JS & jQuery Task Tracker](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/JS-jQuery-Task-Tracker) — A minimalist task management application demonstrating predictable State-to-UI rendering, array manipulation, and queued animation controls.
+    * **[🚀 Task Tracker Live Demo](https://mariatupik.github.io/My-Python-Journey/ItProger/JS-jQuery-Task-Tracker/)**
+
+---
+
+### Module: Full-Stack Web Development
+*Architecting decoupled web applications, RESTful API design, and asynchronous data synchronization.*
+
+* **Learning Objectives:**
+    * **RESTful API Engineering:** Architecting backend services using Django REST Framework for robust CRUD operations. Implemented `ModelViewSet` and `APIView` to handle asynchronous GET/POST/PUT requests, ensuring decoupled data management.
+    * **Reactive Frontend Architectures:** Developing Single Page Applications (SPA) via Vue 3. Managing application state, reactive props, and asynchronous data streams using Axios to bridge frontend components with backend endpoints.
+    * **Transaction Lifecycle & Payment Gateways:** Integrating Cloudipsp (Fondy) for secure financial operations. Implementing server-side payload serialization, transaction validation, and automated order status tracking.
+    * **Infrastructure Synchronization:** Coordinating cross-origin requests (CORS), managing dynamic routing with Vue Router, and enforcing data integrity across decoupled storage layers (Django ORM to JSON payload conversion).
+
+* **Key Projects:**
+    * [Full-Stack Furniture Shop](https://github.com/mariatupik/My-Python-Journey/tree/main/ItProger/Vue-Django-Furnitureshop) — A production-grade e-commerce ecosystem.
+        * **Catalog & CRUD Engine:** Developed custom Vue components for real-time furniture catalog rendering and admin-level editing, performing live API updates to the Django database.
+        * **Security-First Checkout:** Implemented server-side order validation using Django serializers to sanitize incoming payloads. Payment transactions are executed via Cloudipsp SDK with server-side price conversion to ensure financial data integrity and prevent client-side price tampering.
+        * **System Reliability:** Configured Django for high-concurrency API performance, optimized SQL queries via indexed slugs, and automated file-based asset referencing for UI imagery.
+        * **Tech Stack:** Django >=5.0, Django REST Framework, django-cors-headers, Vue 3 (Composition API), Vite, Axios, Cloudipsp SDK, SQLite.
+
+---
+
+
+
